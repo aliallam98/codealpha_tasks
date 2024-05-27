@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  padding: 100px 20px;
+}
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  text-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form {
+  display: block;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+  padding: 20px 10px;
+  outline: none;
+}
+
+.submit-btn {
+  display: block;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+}
+.clear-btn {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.tasks-conatiner {
+  width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.completed {
+  background-color: green;
+}
+
